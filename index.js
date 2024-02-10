@@ -20,12 +20,12 @@ let startChangingColor = ()=>{
     }
     intervalid = setInterval(colorchangeing,1000);
 }
-
-
-
 let stopChangingColor = () =>{
     clearInterval(intervalid);
 }
+
+
+
 start.addEventListener("click",startChangingColor);
 
 stop.addEventListener("click",stopChangingColor)
